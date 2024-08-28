@@ -1,0 +1,98 @@
+/* Estilos gerais */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fef6e4;
+    color: #333;
+}
+
+/* Estilo do cabeçalho e menu */
+header {
+    background-color: #ffcad4;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #ffc8dd;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #6d597a;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #ffc8dd;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ffb3c6;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Estilo dos títulos */
+h1 {
+    color: #b5838d;
+    text-align: center;
+}
+
+h2, h3 {
+    color: #6d597a;
+    border-bottom: 2px solid #ffcad4;
+    padding-bottom: 5px;
+}
+
+/* Estilo das listas */
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+    color: #6d597a;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #ffcad4;
+    color: #333;
+    text-align: center;
+    padding: 3px; 
+    width: 100%;
+    border-top: 3px solid #ffc8dd; 
+    font-size: 0.7em; 
+    margin-top: 20px; 
+}
+
+
+/* Estilo para botões ou elementos interativos */
+button, a.button {
+    background-color: #ffb3c6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover, a.button:hover {
+    background-color: #ff8ba7;
+}
